@@ -1,0 +1,35 @@
+{
+  "name": "optimusprime",
+  "version": "1.0.0",
+  "description": "Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pryme-svg/OptimusPrime.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "pryme-svg",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/pryme-svg/OptimusPrime/issues"
+  },
+  "homepage": "https://github.com/pryme-svg/OptimusPrime#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.9.0",
+    "@discordjs/rest": "^0.2.0-canary.0",
+    "discord-api-types": "^0.25.2",
+    "discord.js": "^13.3.1",
+    "request": "^2.88.2",
+    "torrent-search-api": "git+ssh://git@github.com:pryme-svg/torrent-search-api.git"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "nodemon": "^2.0.15"
+  }
+}
